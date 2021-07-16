@@ -38,9 +38,11 @@ Output:
 */
 
 export function makeMoreScreamingKeys(someObject) {
-    const shoutedKeys = [];
-    
-    return ;
+    // const theScreamingKeys = {};
+    // Object.keys(someObject).forEach(item =>{
+    //    theScreamingKeys: {}
+    // })
+    // return theScreamingKeys;
 }
 
 /*
@@ -53,5 +55,5 @@ Output:
 */
 
 export function makeTuples(someObject) {
-    return [someObject];
+    return Object.entries(someObject);
 }
