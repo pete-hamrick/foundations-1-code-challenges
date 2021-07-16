@@ -24,7 +24,7 @@ etc
 */
 
 export function makeWeirdStringFromKeys(someObject) {
-    return '';
+    return Object.keys(someObject);
 }
 
 
@@ -38,7 +38,9 @@ Output:
 */
 
 export function makeMoreScreamingKeys(someObject) {
-    return {};
+    const shoutedKeys = [];
+    
+    return ;
 }
 
 /*
@@ -51,5 +53,5 @@ Output:
 */
 
 export function makeTuples(someObject) {
-    return [];
+    return [someObject];
 }
